@@ -1,4 +1,4 @@
 package com.br.natal.entity.DTOs;
 
-public class AmigoSecretoDTO {
+public record AmigoSecretoDTO(Long id, String nome) {
 }
