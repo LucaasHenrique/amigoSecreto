@@ -1,6 +1,8 @@
 # API de Amigo Secreto
 
-# Esta é uma API REST desenvolvida em Spring Boot para gerenciar e realizar sorteios de Amigo Secreto. Com ela, é possível criar grupos, adicionar participantes, realizar o sorteio e consultar quem cada participante deve presentear.
+Esta é uma API REST desenvolvida em Spring Boot para gerenciar e realizar sorteios de Amigo Secreto. Com ela, é possível criar grupos, adicionar participantes, realizar o sorteio e consultar quem cada participante deve presentear.
+
+# API Endpoints
 
 ```
 POST /criarGrupo - Cria um novo grupo para o amigo secreto.
