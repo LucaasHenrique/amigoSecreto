@@ -24,8 +24,8 @@ public class ParticipanteController {
         this.participanteMapper = participanteMapper;
     }
 
-    @PostMapping("/adicionarParticipante")
-    public ResponseEntity<Void> adicionarParticipante(@RequestParam Long id, @RequestBody ParticipanteDTO participanteDTO) {
+    @PostMapping("/adicionarParticipante/{id}")
+    public ResponseEntity<Void> adicionarParticipante(@PathVariable Long id, @RequestBody ParticipanteDTO participanteDTO) {
 
         Participante participante = ParticipanteMapper.INSTANCE.participanteDTOtoParticipante(participanteDTO);
 
