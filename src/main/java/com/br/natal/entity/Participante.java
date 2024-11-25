@@ -17,6 +17,18 @@ public class Participante {
     @JoinColumn(name="grupo_id")
     private Grupo grupo;
 
+    @ManyToOne
+    @JoinColumn(name = "amigo_secreto_id")
+    private Participante amigoSecreto;
+
+    public Participante getAmigoSecreto() {
+        return amigoSecreto;
+    }
+
+    public void setAmigoSecreto(Participante amigoSecreto) {
+        this.amigoSecreto = amigoSecreto;
+    }
+
     public Grupo getGrupo() {
         return grupo;
     }
