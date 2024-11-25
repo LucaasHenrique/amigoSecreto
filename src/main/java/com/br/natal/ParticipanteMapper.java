@@ -1,4 +1,4 @@
-package com.br.natal;
+package com.br.natal.entity.mapstruct;
 
 import com.br.natal.entity.DTOs.ParticipanteDTO;
 import com.br.natal.entity.Participante;
