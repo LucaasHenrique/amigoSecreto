@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", implementationName = "GeneratedGrupoMapper")
 public interface GrupoMapper {
 
     GrupoMapper INSTANCE = Mappers.getMapper(GrupoMapper.class);
